@@ -1,17 +1,19 @@
 
-<a href="/">Back</a>
+<div>
 
-<h1>Definition</h1>
+	<a href="/">Back</a>
+
+	<h1><%= @defined_word %> </h1>
 
 
+	<% if @entries.any? %>
 
-<% if @entries.any? %>
+		<ul>
+		<% @entries.each do |entry| %>
+		    <li><%= entry %></li>
+		<% end %>
+		</ul>
 
-	<ul>
-	<% @entries.each do |entry| %>
-	    <li><%= entry %></li>
 	<% end %>
-	</ul>
 
-<% end %>
-
+</div>

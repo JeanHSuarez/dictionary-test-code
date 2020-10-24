@@ -9,4 +9,12 @@
 </form>
 
 
-<p>Find me in app/views/oxford_dictionary/index.html.erb</p>
+<p>Recent Searches</p>
+
+<ol>
+	<% @recent_searches.each do |searched_term| %>
+		<li><%= searched_term.term %></li>
+
+	<% end %>
+
+</ol>

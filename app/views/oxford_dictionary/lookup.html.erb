@@ -1,0 +1,17 @@
+
+<a href="/">Back</a>
+
+<h1>Definition</h1>
+
+
+
+<% if @entries.any? %>
+
+	<ul>
+	<% @entries.each do |entry| %>
+	    <li><%= entry %></li>
+	<% end %>
+	</ul>
+
+<% end %>
+

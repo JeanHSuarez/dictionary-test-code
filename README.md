@@ -37,7 +37,8 @@ OXFORD_DICTIONARY_APP_KEY=<INSERT APP_KEY HERE> OXFORD_DICTIONARY_APP_ID=<INSERT
 
 ```
 # Screenshots
-
+![Screenshot from 2020-10-24 02-01-52](https://user-images.githubusercontent.com/26676486/97069298-5381db00-159d-11eb-8d71-75edca10d28e.png)
+![Screenshot from 2020-10-24 02-02-16](https://user-images.githubusercontent.com/26676486/97069280-406f0b00-159d-11eb-851a-1fd2f8806b48.png)
 ![Screenshot from 2020-10-24 01-34-51](https://user-images.githubusercontent.com/26676486/97069060-3ea44800-159b-11eb-88f0-4913f0d865cd.png)
 ![Screenshot from 2020-10-24 00-57-36](https://user-images.githubusercontent.com/26676486/97068989-a6a65e80-159a-11eb-9441-addc2d935117.png)
 ![Screenshot from 2020-10-24 00-58-19](https://user-images.githubusercontent.com/26676486/97069031-06046e80-159b-11eb-8ca2-5c4ac43ef829.png)

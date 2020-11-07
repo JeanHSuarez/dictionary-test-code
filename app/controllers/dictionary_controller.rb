@@ -1,6 +1,6 @@
-class OxfordDictionaryController < ApplicationController
+class DictionaryController < ApplicationController
 
-  rescue_from OxfordApiClient::Error, with: :handle_api_error
+  rescue_from DictionaryApiClient::Error, with: :handle_api_error
   
   
   def index
@@ -8,11 +8,12 @@ class OxfordDictionaryController < ApplicationController
   end
 
   def lookup
-  	client =  OxfordApiClient.new(app_key: Rails.configuration.x.oxford_dictionary.app_key, app_id: Rails.configuration.x.oxford_dictionary.app_id)
+  	client = DictionaryFactory.provide(params[:provider])
     @defined_word = params[:word].downcase
     @entries = client.lookup(@defined_word)
     SearchedTerm.create(term: @defined_word)
   end
+
 
   private
 
